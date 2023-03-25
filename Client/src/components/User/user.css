@@ -1,0 +1,87 @@
+.reg-container{
+    background-color:pink;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.reg-main{
+background-color: white;
+height: 60%;
+width:60vh;
+border-radius:10px;
+
+}
+.reg-main h1{
+    margin-top: 20px;
+    padding: 15px;
+}
+.reg-div input{
+    width: 80%;
+    border: none;
+    border-bottom: 1px solid rgb(140, 137, 137);
+    outline: none;
+    padding: 10px;
+}
+
+.checkbox input{
+    width: auto;
+    padding: 4px;
+}
+.reg-btn button{
+    outline: none;
+    border: none;
+    color: white;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: rgb(255, 144, 163);
+}
+.lg-container{
+    background-color: rgba(73, 75, 214, 0.998);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.lg-main{
+background-color: white;
+height:auto;
+width:60vh;
+border-radius:10px;
+
+}
+.lg-input {
+    margin-left: 40px;
+}
+.lg-input input{
+    width: 80%;
+    border: 1px solid black;
+    padding: 10px;
+    margin: 10px 0px 10px 0px;
+}
+.inputlg-container{
+    text-align: left;
+    margin-left: 20px;
+}
+.lg-checkbox {
+    margin-left: 40px;
+}
+.lg-checkbox input{
+      width: auto;
+    padding: 4px;
+}
+.lg-btn button{
+    outline: none;
+    border: none;
+    color: white;
+    padding: 10px;
+    width: 40%;
+    border-radius: 10px;
+    background-color: rgb(31, 0, 188);
+}
+.frgt-pass{
+    text-align: right;
+    margin-right: 60px;
+    margin-top: 10px;
+}
